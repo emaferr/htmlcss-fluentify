@@ -28,6 +28,12 @@
     margin: auto;
 }
 
+.container_small{
+    width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
 .float_sx{
     float: left;
 }
@@ -36,6 +42,9 @@
     float: right;
 }
 
+a{
+    cursor: pointer;
+}
 /**********************
 * end Utility 
 **********************/
@@ -106,27 +115,35 @@
 
 .grey_section{
     font-size: 1.2rem;
-    height: 150px;
     background-color: #D3D3D3;
     text-align: center;
     line-height: 2.5rem;
     padding-top: 2.6rem;
+    padding-bottom: 2.2rem;
 }
 
 .main_txt{
     font-size: 1.2rem;
     color: #808080;
+    line-height: 1.8rem;
+    
+}
+
+.article_contain{
+    height: 640px;
 }
 
 .main_article{
+    height: 400px;
     width: 33.3%;
     text-align: center;
+    position: relative;
 }
 
 .article_img{
-    height: 300px;
+    height: 250px;
     width: auto;
-    margin: 2rem 0;
+    margin: 2rem 0rem 1rem 2rem;
 }
 
 .article_title{
@@ -143,6 +160,27 @@
     margin: 2rem 0;
 }
 
+.final_img{
+    height: 600px;
+    width: 50%;
+}
+
+.final_article{
+    width: 50%;
+    padding: 2rem 2rem 2rem 10rem;
+
+}
+
+.last_title{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.last_link{
+    color: #5586BC;
+    padding-left: 10rem;
+}
 
 /**********************
 * end Main
