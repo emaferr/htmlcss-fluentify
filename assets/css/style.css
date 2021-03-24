@@ -51,7 +51,7 @@
     background-image: url(../img/background-header.png);
     background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: 115% 110%;
+    background-position: 110% 110%;
     position: relative;
 }
 
@@ -79,21 +79,17 @@
     padding: 1rem 0rem 0rem 3rem;
 }
 
-.logo{
-
-}
 /* end Nav */
 
+/* Hero txt */
 #hero_txt{
-    font-weight: bold;
-    width: 75%;
-    font-size: 2.2rem;
+    font-size: 3rem;
     color: #ffffff;
     position: absolute;
-    bottom: 38%;
+    bottom: 40%;
     left: 12.5%;
-    line-height: 3rem;
 }
+/* Hero txt */
 
 /**********************
 * end Header
@@ -124,7 +120,7 @@
 
 .button{
     border-radius: 5px;
-    padding: 8px 20px;
+    padding: 8px 16px;
     margin-left: 1rem;
 }
 
@@ -137,12 +133,20 @@
 }
 
 .o_button:hover{
-    background-color: #7CBB02;
+    background-color: #649403;
 }
 
 .s_button:hover{
-    border: 1px solid #ffffff;
     background-color: #649403;
+}
+
+#big_button{
+    font-size: 0.8rem;
+    padding: 16px 32px;
+    margin-left: 0;
+    position: absolute;
+    top: 125%;
+
 }
 
 /**********************
