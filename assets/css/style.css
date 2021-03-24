@@ -64,7 +64,7 @@
 }
 
 .header_txt:hover{
-    color: #7CBB02;
+    color: #8fd503;
 
 }
 
@@ -72,7 +72,7 @@
 .hp_nav{
     height: 50px;
     cursor: pointer;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 .head_menu{
@@ -99,6 +99,22 @@
 /**********************
 * Main
 **********************/
+
+.grey_section{
+    font-size: 1.2rem;
+    height: 150px;
+    background-color: #D3D3D3;
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 2.6rem;
+}
+
+.main_txt{
+    font-size: 1rem;
+    color: #808080;
+}
+
+
 
 /**********************
 * end Main
