@@ -24,7 +24,7 @@
 }
 
 .container{
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 
@@ -87,7 +87,7 @@
     color: #ffffff;
     position: absolute;
     bottom: 40%;
-    left: 12.5%;
+    left: 10%;
 }
 /* Hero txt */
 
@@ -100,20 +100,48 @@
 * Main
 **********************/
 
+#grey_title{
+    font-size: 1.5rem;
+}
+
 .grey_section{
     font-size: 1.2rem;
     height: 150px;
     background-color: #D3D3D3;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2.5rem;
     padding-top: 2.6rem;
 }
 
 .main_txt{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #808080;
 }
 
+.main_article{
+    width: 33.3%;
+    text-align: center;
+}
+
+.article_img{
+    height: 300px;
+    width: auto;
+    margin: 2rem 0;
+}
+
+.article_title{
+    color: #7CBB02;
+    font-size: 2rem;
+}
+
+.line_decor::after{
+    content: '';
+    width: 150px;
+    height: 2px;
+    background-color: #808080;
+    display: inline-block;
+    margin: 2rem 0;
+}
 
 
 /**********************
