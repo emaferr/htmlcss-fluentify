@@ -30,6 +30,7 @@
 
 .container_small{
     width: 70%;
+    height: 680px;  
     margin: auto;
     padding-top: 2rem;
 }
@@ -114,12 +115,15 @@ a{
 }
 
 .grey_section{
-    font-size: 1.2rem;
-    background-color: #D3D3D3;
     text-align: center;
     line-height: 2.5rem;
     padding-top: 2.6rem;
     padding-bottom: 2.2rem;
+}
+
+.grey_section, .lastgrey_section{
+    font-size: 1.2rem;
+    background-color: #D3D3D3;
 }
 
 .main_txt{
@@ -191,6 +195,22 @@ a{
 * Footer
 **********************/
 
+.lastgrey_section{
+    height: 150px;
+    padding-top: 3rem;
+}
+
+#footer_link a{
+    padding-right: 2rem;
+}
+
+#footer_link{
+    position: relative;
+    height: 100px;
+
+}
+
+
 /**********************
 * end Footer
 **********************/
@@ -223,14 +243,22 @@ a{
 }
 
 #big_button{
-    font-size: 0.8rem;
-    padding: 16px 32px;
     margin-left: 0;
     position: absolute;
     top: 125%;
+}   
 
+.b_button, #big_button{
+    font-size: 0.8rem;
+    padding: 16px 32px;
 }
 
+#last_button{
+    position: absolute;
+    bottom: 0;
+    right: 3.8rem;
+}
 /**********************
 * end Button
 **********************/
+
