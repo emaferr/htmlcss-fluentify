@@ -1,34 +1,122 @@
 /**********************
 * Rule 
 **********************/
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 /**********************
 * Rule 
 **********************/
 
+
 /**********************
 * Utility 
 **********************/
+
 .clerfix::after{
     content: "";
     display: table;
     clear: both;
 }
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.float{
+    float: left;
+}
+
+.dx{
+   float: right;
+}
+
 /**********************
 * end Utility 
 **********************/
+
+
+/**********************
+* Button
+**********************/
+
+.button{
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 8px 24px;
+}
+
+.o_button{
+    border: 1px solid white;
+}
+
+.s_button{
+    background-color: #7CBB02;
+}
+
+.o_button:hover{
+    background-color: #7CBB02;
+}
+
+.s_button:hover{
+    border: 1px solid #ffffff;
+    background-color: #649403;
+}
+/**********************
+* end Button
+**********************/
+
 
 /**********************
 * Header
 **********************/
 
+#hp_header{
+    height: 550px;
+    background-color: #0C325A;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
+}
+
+.header_txt{
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0rem 0.4rem;
+}
+
+.header_txt:hover{
+    color: #7CBB02;
+
+}
+
+/* Nav */
+.hp_nav{
+    height: 50px;
+    cursor: pointer;
+}
+
+.head_menu{
+    padding: 1rem 3rem 0rem 2rem;
+}
+
+.logo{
+
+}
+/* end Nav */
+
 /**********************
 * end Header
 **********************/
+
 
 /**********************
 * Main
@@ -37,6 +125,7 @@
 /**********************
 * end Main
 **********************/
+
 
 /**********************
 * Footer
