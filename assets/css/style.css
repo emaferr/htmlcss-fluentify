@@ -257,6 +257,7 @@ a{
     position: fixed;
     bottom: 0;
     right: 14.3rem;
+    padding: 0.8rem 1.8rem;  
 }
 /**********************
 * end Button
