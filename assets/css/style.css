@@ -254,9 +254,9 @@ a{
 }
 
 #last_button{
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    right: 3.8rem;
+    right: 14.3rem;
 }
 /**********************
 * end Button
