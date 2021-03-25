@@ -139,7 +139,7 @@ a{
 
 .main_article{
     height: 400px;
-    width: 33.3%;
+    width: calc(100%/3);
     text-align: center;
     position: relative;
 }
